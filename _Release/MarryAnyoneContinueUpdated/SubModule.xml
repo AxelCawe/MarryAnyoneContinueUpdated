@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+  <Name value="Marry Anyone" />
+  <Id value="MarryAnyone" />
+  <Version value="v3.0.5" />
+  <Official value="false" />
+  <DefaultModule value="false" />
+	<ModuleCategory value="Singleplayer"/>
+	<DependedModules>
+		<DependedModule Id="Bannerlord.Harmony" />
+		<DependedModule Id="Native"/>
+		<DependedModule Id="SandBoxCore"/>
+		<DependedModule Id="Sandbox"/>
+		<DependedModule Id="StoryMode"/>
+	</DependedModules>
+	<SubModules>
+		<SubModule>
+      <Name value="MarryAnyone" />
+      <DLLName value="MarryAnyone.dll" />
+      <SubModuleClassType value="MarryAnyone.MASubModule" />
+			<Tags />
+		</SubModule>
+	</SubModules>
+	<Xmls>
+		<XmlNode>
+			<XmlName id="GameText" path="ma_module_strings"/>
+		</XmlNode>
+	</Xmls>
+</Module>

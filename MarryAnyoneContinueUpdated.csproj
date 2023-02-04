@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\Caleb\Downloads\MarryAnyone.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D282D092-5FE0-4831-8C6F-AE1E08BB6CC5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>MarryAnyone</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <ApplicationVersion>3.0.5.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Mount &amp; Blade II Bannerlord\Modules\Bannerlord.Harmony\bin\Win64_Shipping_Client\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="MCMv5">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Mount &amp; Blade II Bannerlord\Modules\Bannerlord.MBOptionScreen\bin\Win64_Shipping_Client\MCMv5.dll</HintPath>
+    </Reference>
+    <Reference Include="MCMv5.UI">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Mount &amp; Blade II Bannerlord\Modules\Bannerlord.MBOptionScreen\bin\Win64_Shipping_Client\MCMv5.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Mount &amp; Blade II Bannerlord\bin\Win64_Shipping_Client\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="SandBox">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Mount &amp; Blade II Bannerlord\Modules\SandBox\bin\Win64_Shipping_Client\SandBox.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TaleWorlds.CampaignSystem">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Mount &amp; Blade II Bannerlord\bin\Win64_Shipping_Client\TaleWorlds.CampaignSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="TaleWorlds.CampaignSystem.ViewModelCollection">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Mount &amp; Blade II Bannerlord\bin\Win64_Shipping_Client\TaleWorlds.CampaignSystem.ViewModelCollection.dll</HintPath>
+    </Reference>
+    <Reference Include="TaleWorlds.Core">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Mount &amp; Blade II Bannerlord\bin\Win64_Shipping_Client\TaleWorlds.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="TaleWorlds.DotNet">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Mount &amp; Blade II Bannerlord\bin\Win64_Shipping_Client\TaleWorlds.DotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="TaleWorlds.Engine">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Mount &amp; Blade II Bannerlord\bin\Win64_Shipping_Client\TaleWorlds.Engine.dll</HintPath>
+    </Reference>
+    <Reference Include="TaleWorlds.Library">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Mount &amp; Blade II Bannerlord\bin\Win64_Shipping_Client\TaleWorlds.Library.dll</HintPath>
+    </Reference>
+    <Reference Include="TaleWorlds.Localization">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Mount &amp; Blade II Bannerlord\bin\Win64_Shipping_Client\TaleWorlds.Localization.dll</HintPath>
+    </Reference>
+    <Reference Include="TaleWorlds.ModuleManager">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Mount &amp; Blade II Bannerlord\bin\Win64_Shipping_Client\TaleWorlds.ModuleManager.dll</HintPath>
+    </Reference>
+    <Reference Include="TaleWorlds.MountAndBlade">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Mount &amp; Blade II Bannerlord\bin\Win64_Shipping_Client\TaleWorlds.MountAndBlade.dll</HintPath>
+    </Reference>
+    <Reference Include="TaleWorlds.ObjectSystem">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Mount &amp; Blade II Bannerlord\bin\Win64_Shipping_Client\TaleWorlds.ObjectSystem.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="System\Runtime\CompilerServices\IsExternalInit.cs" />
+    <Compile Include="System\Diagnostics\CodeAnalysis\AllowNullAttribute.cs" />
+    <Compile Include="System\Diagnostics\CodeAnalysis\DisallowNullAttribute.cs" />
+    <Compile Include="System\Diagnostics\CodeAnalysis\DoesNotReturnAttribute.cs" />
+    <Compile Include="System\Diagnostics\CodeAnalysis\DoesNotReturnIfAttribute.cs" />
+    <Compile Include="System\Diagnostics\CodeAnalysis\MaybeNullAttribute.cs" />
+    <Compile Include="System\Diagnostics\CodeAnalysis\MaybeNullWhenAttribute.cs" />
+    <Compile Include="System\Diagnostics\CodeAnalysis\MemberNotNullAttribute.cs" />
+    <Compile Include="System\Diagnostics\CodeAnalysis\MemberNotNullWhenAttribute.cs" />
+    <Compile Include="System\Diagnostics\CodeAnalysis\NotNullAttribute.cs" />
+    <Compile Include="System\Diagnostics\CodeAnalysis\NotNullIfNotNullAttribute.cs" />
+    <Compile Include="System\Diagnostics\CodeAnalysis\NotNullWhenAttribute.cs" />
+    <Compile Include="MarryAnyone\Helper.cs" />
+    <Compile Include="MarryAnyone\MASubModule.cs" />
+    <Compile Include="MarryAnyone\Settings\ISettingsProvider.cs" />
+    <Compile Include="MarryAnyone\Settings\MAConfig.cs" />
+    <Compile Include="MarryAnyone\Settings\MASettings.cs" />
+    <Compile Include="MarryAnyone\Settings\MCMSettings.cs" />
+    <Compile Include="MarryAnyone\Patches\EncyclopediaHeroPageVM_allRelatedHeroesPatch.cs" />
+    <Compile Include="MarryAnyone\Patches\PlayerIsSpouseTagPatch.cs" />
+    <Compile Include="MarryAnyone\Patches\PrisonerCaptureCampaignBehaviorPatch.cs" />
+    <Compile Include="MarryAnyone\Patches\Romance_Patch.cs" />
+    <Compile Include="MarryAnyone\Patches\TaleWorlds\MountAndBlade\MissionPatch.cs" />
+    <Compile Include="MarryAnyone\Patches\TaleWorlds\CampaignSystem\HeroPatch.cs" />
+    <Compile Include="MarryAnyone\Patches\TaleWorlds\CampaignSystem\LocationPatch.cs" />
+    <Compile Include="MarryAnyone\Patches\TaleWorlds\CampaignSystem\TournamentGame161.cs" />
+    <Compile Include="MarryAnyone\Patches\TaleWorlds\CampaignSystem\GameComponents\DefaultClanFinanceModelPatch.cs" />
+    <Compile Include="MarryAnyone\Patches\Models\DefaultMarriageModel_IsCoupleSuitableForMarriage_P.cs" />
+    <Compile Include="MarryAnyone\Patches\Models\DefaultMarriageModel_IsSuitableForMarriage_Patch.cs" />
+    <Compile Include="MarryAnyone\Patches\Models\DefaultMarriageModelHelp.cs" />
+    <Compile Include="MarryAnyone\Patches\Helpers\GetHeroRelationToHeroTextShortPatch.cs" />
+    <Compile Include="MarryAnyone\Patches\Behaviors\EducationCampaignBehaviorPatch.cs" />
+    <Compile Include="MarryAnyone\Patches\Behaviors\LordDefectionCampaignBehaviorPatch.cs" />
+    <Compile Include="MarryAnyone\Patches\Behaviors\ForHero.cs" />
+    <Compile Include="MarryAnyone\Patches\Behaviors\PregnancyCampaignBehaviorPatch.cs" />
+    <Compile Include="MarryAnyone\Patches\Behaviors\RomanceCampaignBehaviorPatch.cs" />
+    <Compile Include="MarryAnyone\Patches\Behaviors\SandBoxSourceCampaignComponentsCompanionRolesCampa.cs" />
+    <Compile Include="MarryAnyone\Models\MADefaultMarriageModel.cs" />
+    <Compile Include="MarryAnyone\Models\MARomanceModel.cs" />
+    <Compile Include="MarryAnyone\MA\MATeam.cs" />
+    <Compile Include="MarryAnyone\Helpers\HelperReflection.cs" />
+    <Compile Include="MarryAnyone\Helpers\HeroCompatibleTrait.cs" />
+    <Compile Include="MarryAnyone\Helpers\HeroInteractionHelper.cs" />
+    <Compile Include="MarryAnyone\Helpers\PartyHelper.cs" />
+    <Compile Include="MarryAnyone\Helpers\ShortLifeObject.cs" />
+    <Compile Include="MarryAnyone\Helpers\ShortLifeBiObject.cs" />
+    <Compile Include="MarryAnyone\Helpers\ShortLifeBiObjects.cs" />
+    <Compile Include="MarryAnyone\Helpers\Util.cs" />
+    <Compile Include="MarryAnyone\Behaviors\MAAdoptionCampaignBehavior.cs" />
+    <Compile Include="MarryAnyone\Behaviors\MAPatchBehavior.cs" />
+    <Compile Include="MarryAnyone\Behaviors\EnumerableHelper.cs" />
+    <Compile Include="MarryAnyone\Behaviors\MAPerSaveCampaignBehavior.cs" />
+    <Compile Include="MarryAnyone\Behaviors\MARomanceCampaignBehavior.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

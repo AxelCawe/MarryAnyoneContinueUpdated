@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<tags>
+		<tag language="English" />
+	</tags>
+	<strings>
+		<!-- Romance -->
+		<string id="lord_flirt" text="My lord, I see that you have not taken a spouse yet." />
+		<string id="lord_cheating_flirt" text="My lord, me think your heart yearns for a new spouse." />
+		<string id="goodman_flirt" text="My good man, I see that you have not taken a spouse yet." />
+		<string id="goodwife_flirt" text="My dear lady, I wish to profess myself your most ardent admirer." />
+		<string id="goodman_chance" text="My good man, would you give me another chance to prove myself ?" />
+		<string id="goodwife_chance" text="My dear lady, would you give me another chance to prove myself ?" />
+
+		<string id="Divorce_engage_dialog" text="We have been together for too long my {RELATION_TEXT}{newline}, I think it is time to explore new horizons. I want a divorce {INTERLOCUTOR.NAME}." />
+		<string id="DivorceBug_engage_dialog" text="There is a bug in the Marry Anyone, just leave my team {INTERLOCUTOR.NAME}!" />
+		<string id="LeaveSpouseParty" text="Hope we meet again, maybe in the arena{newline}, so long ..." />
+		<string id="endcourthip" text="Sorry {INTERLOCUTOR.NAME}, I don't want to marry you anymore." />
+		<string id="marryAgain_engage_dialog" text="We are not well married {INTERLOCUTOR.NAME} (regarding the log events).{newline} Do you want we married again my {RELATION_TEXT} ?" />
+				
+		<!-- Adoption -->
+		<string id="adoption_offer_child" text="I can tell you have no parents to go back to, my child. I can be your {?PLAYER.GENDER}mother{?}father{\\?} if you wish." />
+		<string id="adoption_response_child" text="You want to be my {?PLAYER.GENDER}Ma{?}Pa{\\?}? very well then![rf:happy][rb:very_positive]" />
+		<string id="adoption_offer_teen" text="Don’t you have any parents to take care of you, young {?CONVERSATION_CHARACTER.GENDER}woman{?}man{\\?} ? I'd love for you to be a part of my family." />
+		<string id="adoption_response_teen" text="Thank you for allowing me to be a part of your family {?PLAYER.GENDER}my Lady{?}Sir{\\?}. I humbly accept![rf:happy][rb:very_positive]" />
+
+
+		<!-- Cheating -->
+		<string id="Cheat_engage_courtship" text="I would love to spend some time with you. Will you join my party for a few days ?" />
+		<string id="LeaveCheat_engage_dialog" text="I think you need to go away {INTERLOCUTOR.NAME}, I have other things to do." />
+		<string id="allready_reply" text="I have already given you my answer, off you go." />
+		<string id="Cheat_success" text="Yes, let's have some fun ! I will join your party." />
+		<string id="cheatTestFail" text="I am not interested." />
+		<string id="cheatTestRetry" text="Well, I think you may want to try some other time." />
+		<string id="cheatFirstToken" text="What do you have in mind ?" />
+		<string id="CheatLeaderChoice" text="Don't worry, just follow me {?INTERLOCUTOR.GENDER}Miss{?}Mister{\\?}." />
+		<string id="CheatCalculateChoice" text="If we are both thinking the same thing, then let's go" />
+		<string id="CheatMercyChoice" text="I cannot let {?INTERLOCUTOR.GENDER}a beautiful woman{?}a handsome young man{\\?} get hurt in this dangerous world, I'll protect you." />
+		<string id="CheatGenerosityCharm" text="It is a beautiful day outside, and {?INTERLOCUTOR.GENDER}an adventurous woman{?}an adventurous man{\\?} like you, needs to enjoy the fresh air." />
+
+		<!-- Relation improvement-->
+		<string id="TheTwoOfThemHaveAGoodTime" text="{HEROONE.NAME} and {HEROTOW.NAME} have a good time together, their relationship up by {INCREMENT} points to {FINALRELATION}." />
+		<string id="TheTwoOfThemSpendTime" text="{HEROONE.NAME} and {HEROTOW.NAME} spend some time together, their relationship up by {INCREMENT} points to {FINALRELATION}." />
+		<string id="TheTwoOfThemSpendTimeDown" text="{HEROONE.NAME} and {HEROTOW.NAME} don't have a good time together, their relationship down by {INCREMENT} points to {FINALRELATION}" />
+
+		<!-- Relation Battle improvement-->
+		<string id="ChangeRelationUpToFinalWithPlayer" text=" Your relation up by {RELATION} to {FINALRELATION}." />
+		<string id="ChangeRelationDownToFinalWithPlayer" text=" Your relation down by {RELATION} to {FINALRELATION}." />
+		<string id="ChangeRelationUpToFinal" text=" Their relation up by {RELATION} to {FINALRELATION}." />
+		<string id="ChangeRelationDownToFinal" text=" Their relation down by {RELATION} to {FINALRELATION}." />
+		<string id="ChangeRelationUpToWithPlayer" text=" Your relation up by {RELATION}." />
+		<string id="ChangeRelationDownToWithPlayer" text=" Your relation down by {RELATION}." />
+		<string id="ChangeRelationUpTo" text=" Their relation up by {RELATION}." />
+		<string id="ChangeRelationDownTo" text=" Their relation down by {RELATION}." />
+		
+		<string id="BattleRelationLikeWeakOpponentAgainstPlayer" text="{AFFECTORHERO.NAME} happily taunts you as you fall to the ground !" />
+		<string id="BattleRelationLikeWeakOpponent" text="{AFFECTORHERO.NAME} happily taunts {AFFECTEDHERO.NAME} as {?AFFECTEDHERO.GENDER}she{?}he{\\?} falls to the ground !" />
+		<string id="BattleRelationLikeStrongOpponentAgainstPlayer" text="{AFFECTORHERO.NAME} respects your strength in battle." />
+		<string id="BattleRelationLikeStrongOpponent" text="{AFFECTORHERO.NAME} respects {AFFECTEDHERO.NAME} strength in battle." />
+		<string id="BattleRelationLostAFreindPlayer" text="{AFFECTEDHERO.NAME} resents you because you are looking away when {?AFFECTEDHERO.GENDER}she{?}he{\\?} falls to the ground." />
+		<string id="BattleRelationLostAFreind" text="{AFFECTEDHERO.NAME} resents {OTHERHERO.NAME} because {?OTHERHERO.GENDER}she{?}he{\\?}'s looking away when {?AFFECTEDHERO.GENDER}she{?}he{\\?} falls to the ground." />
+		<string id="BattleRelationNeedAFreindPlayer" text="{AFFECTEDHERO.NAME} is counting on you to avenge {?AFFECTEDHERO.GENDER}her{?}him{\\?}!" />
+		<string id="BattleRelationNeedAFreind" text="{AFFECTEDHERO.NAME} is counting on {OTHERHERO.NAME} to avenge {?AFFECTEDHERO.GENDER}her{?}him{\\?}!" />
+		<string id="BattleRelationRespectLostAgainstPlayer" text="{AFFECTEDHERO.NAME} respects your strength in battle." />
+		<string id="BattleRelationRespectLostAgainstNPC" text="{AFFECTEDHERO.NAME} respects {AFFECTORHERO.NAME} strength in battle." />
+		<string id="BattleRelationFrustatedLostAgainstPlayer" text="{AFFECTEDHERO.NAME} holds a grudge against you when {?AFFECTEDHERO.GENDER}she{?}he{\\?} falls to the ground." />
+		<string id="BattleRelationFrustatedLostAgainstNPC" text="{AFFECTEDHERO.NAME} holds a grudge against {AFFECTORHERO.NAME} when {?AFFECTEDHERO.GENDER}she{?}he{\\?} falls to the ground." />
+		<string id="BattleRelationBattleWithFreindPlayer" text="{OTHERHERO.NAME} happily watches you beat your enemies to the ground." />
+		<string id="BattleRelationBattleWithFreind" text="{OTHERHERO.NAME} happily watches {AFFECTORHERO.NAME} beat their enemies to the ground." />
+	</strings>
+</base>
